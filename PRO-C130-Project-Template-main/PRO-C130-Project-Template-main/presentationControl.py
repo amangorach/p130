@@ -8,11 +8,11 @@ cap = cv2.VideoCapture(0)
 
 #Un comment  the corect code 
 
-width  = int(cap.get(cv2.CAP_PROP_FRAME_Height)) 
-height  = int(cap.get(cv2.CAP_PROP_FRAME_Width))
+#width  = int(cap.get(cv2.CAP_PROP_FRAME_height)) 
+#height  = int(cap.get(cv2.CAP_PROP_FRAME_Width))
 
-#width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) 
-#height  = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) 
+width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) 
+height  = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) 
 
 #width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) 
 #height  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
